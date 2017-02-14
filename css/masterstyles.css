@@ -1,0 +1,144 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+::-webkit-scrollbar {width: 5px; height: 4px; background:rgba(255,255,255,0.0); }
+::-webkit-scrollbar-thumb { background-color: #000; /*-webkit-border-radius: 1ex; */}
+html 
+{ 
+  background:url('../images/yosemite2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body
+{
+	font-size:12px;
+	font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+	margin:0 auto;
+	width:800px;
+	height:600px;
+}
+.moon
+{
+	position:absolute;
+	top:-60px;
+	left:-60px;
+}
+.logo
+{
+	
+	background-color:rgba(255,255,255,0.3);
+	position:relative;
+	color:white;
+	font-family: 'Merriweather', serif;
+	font-size:50px;
+	width:698px;
+	height:88px;
+	padding:5px;
+	padding-left:90px;
+	margin-top:70px;
+	margin-bottom:50px;
+	border:1px solid black;
+	/*background-image:url('https://media.giphy.com/media/87tkMovdHMRk4/giphy.gif');*/
+}
+/*.navigation
+{
+	width:788px;
+	height:28px;
+	padding:5px;
+	border:1px solid black;
+}*/
+.sidebar
+{
+	background-color:rgba(255,255,255,0.3);
+	width:148px;
+	height:379px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	float:left;
+}
+.main
+{
+	background-color:rgba(255,255,255,0.3);
+	width:639px;
+	height:369px;
+	padding:5px;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	overflow-y: scroll;
+	float:right;
+}
+.copyright
+{
+	background-color:rgba(255,255,255,0.3);
+	clear:both;
+	width:788px;
+	height:18px;
+	padding:5px;
+	text-align:center;
+	border:1px solid black;
+}
+ul
+{
+	list-style-type:none;
+}
+li
+{
+	padding:5px;
+	border-bottom:1px solid black;
+}
+a
+{
+	color:black;
+	text-decoration:none;
+}
+a:hover
+{
+	font-weight:bold;
+}
+p
+{
+	text-indent:50px;
+	padding-bottom:5px;
+}
+.info
+{
+	margin: 0 auto;
+	text-align:left;
+	width:210px;
+	padding:10px;
+	font-size:16px;
+}
+label
+{
+	font-size:12px;
+}
+.first, .last, .email
+{
+	margin:5px;
+	padding:5px;
+	height:15px;
+	border-radius:5px;
+	font-family: 'Nunito', sans-serif;
+	font-size:12px;
+	width:190px;
+}
+#submit
+{
+	padding:3px; 
+	border:1px solid black;
+	height:24px;
+    cursor:pointer;
+	background-color:rgba(255,255,255,0.8);
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	font-family: 'Nunito', sans-serif;
+	font-size:12px;
+}
